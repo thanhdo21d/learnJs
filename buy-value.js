@@ -73,3 +73,13 @@ console.log(a, b, c)//ball sword magic
 // const [] = toys
 const [x, y, z] = toys;
 console.log(x, y, z)//ball sword magic
+
+// rest parameter...
+const   [ball, sword,...rest] = toys ; // lay nhung gia tri  con lai 
+console.log(rest) // magic fire 
+
+
+function demo (a, ...rest) {
+    console.log(a,rest)
+}
+demo (1,2,3,4,4,5,5,67)
