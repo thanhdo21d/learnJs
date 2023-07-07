@@ -43,3 +43,5 @@ console.log(isNaN(num2))
 const isNum = 1 + (2 + -2) * 3 - + "3"
 
 console.log(isNum)
+
+const num3 = Math.random()
