@@ -2,20 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>demo</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <a class="shope" href="shope.vn">shop vn</a>
+    <div >
+        <h1> tính tiền tip </h1>
 
-    <!-- <a class="shope" href="shope.vn">a</a>
-    <a class="shope" href="shope.vn">a</a>
-    <a class="shope" href="shope.vn">a</a>
-    <a class="shope" href="shope.vn">a</a>
-    <a class="shope" href="shope.vn">a</a> -->
+        <form>
+            <p>nhập tổng số tiền trên bill</p>
+            <input placeholder="tổng hoá đơn"/>
 
+            <p> độ hài lòng của bạn </p>
+            <select>
+                <option disabled selected value=""> vui lòng chọn </option>
+                <option value="0.3"> 30% rất hài lòng </option>
+                <option value="0.2"> 20%  hài lòng </option>
+                <option value="0.15"> 15% tạm ổn </option>
+                <option value="0.1"> 10% không hài lòng </option>
+                <option value="0.05"> 5%  hơi tẹ </option>
+            </select>
+        </form>
+
+        <p> số người ăn trên bàn  </p>
+        <input type="text" placeholder=" số người ăn .....">
+        <button> tính ngay </button>
+    </div>
+
+    <div>
+        <p> $ <span>0.00</span> </p>
+        <p> mỗi người </p>
+    </div>
+   
 
 </body>
 
@@ -24,5 +43,7 @@
 <!-- <script src="./string.js"></script>  -->
 <!-- <script src="./number.js"></script>  -->
 <!-- <script src="./function.js"></script>  -->
-<script src="./dom.js"></script> 
+<!-- <script src="./dom.js"></script>  -->
+<script src="./baitap.js"></script> 
+
 </html>
