@@ -4,37 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./index.js"></script>
 </head>
 <body>
-<h1>Giỏ hàng</h1>
+    <form  id="login-form">
+    <label for="email">email</label>
+    <input type="email" id="email" placeholder="enter your email" required> <br/> <br/> 
+    <label for="password">password</label>
 
-    <div id="products">
-        <h2>Danh sách sản phẩm</h2>
-        <ul>
-            <li>
-                Sản phẩm A - $10
-                <button class="buy-btn" data-product="productA">Mua</button>
-            </li>
-            <li>
-                Sản phẩm B - $20
-                <button class="buy-btn" data-product="productB">Mua</button>
-            </li>
-            <li>
-                Sản phẩm C - $30
-                <button class="buy-btn" data-product="productC">Mua</button>
-            </li>
-        </ul>
-    </div>
+    <input type="password" id="password" placeholder="enter your password" required> <br/><br/>
+    <button type="submit" > đăng nhập </button>
+    </form>
+   
+    <script>
+        const loginForm = document.getElementById("login-form")
+        const email = document.getElementById("email")
+        const password = document.getElementById("password")
+            if (sessionStorage.getItem("isLogin") === "true") {
+            window.location.href = "http://127.0.0.1:5500/js%20n%C3%A2ng%20cao/html.html";
+        }
 
-    <div id="cart">
-        <h2>Giỏ hàng</h2>
-        <ul id="cart-items">
-        </ul>
-        <p id="total">Tổng tiền: $0</p>
-        <button id="checkout">Thanh toán</button>
-    </div>
+        loginForm.addEventListener("submit", function(event){
+            event.preventDefault() // chan tat ca su kien 
 
+            const emailValue = email.value
+            const passwordValue = password.value
+
+            if(emailValue !== "" && passwordValue !== ""){
+                sessionStorage.setItem("isLogin","true")
+
+                window.location.href = "http://127.0.0.1:5500/js%20n%C3%A2ng%20cao/html.html"
+                  if (sessionStorage.getItem("isLogin") === "true") {
+                        window.location.href = "http://127.0.0.1:5500/js%20n%C3%A2ng%20cao/html.html";
+                    }
+            }
+            else{
+                window.location.href = "dang nhap"
+            }
+        })
+
+    
+
+    </script>
 
 </body>
-<script src="./baitap.js"></script>
 </html>
