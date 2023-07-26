@@ -116,3 +116,40 @@ delay(3000)
     console.log("run three")
 })
 
+
+
+// Hàm mô phỏng việc tải dữ liệu từ nguồn thứ nhất (Promise sẽ giả định rằng tải thành công sau 2 giây)
+function fetchDataFromSource1() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Dữ liệu từ nguồn 1");
+        }, 2000);
+    });
+}
+
+// Hàm mô phỏng việc tải dữ liệu từ nguồn thứ hai (Promise sẽ giả định rằng tải thành công sau 3 giây)
+function fetchDataFromSource2() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            reject("Dữ liệu từ nguồn 2");
+        }, 3000);
+    });
+}
+
+// Sử dụng Promise.all() để đợi cả hai Promise hoàn thành
+Promise.allSettled([fetchDataFromSource1(), fetchDataFromSource2()])
+    .then((results) => {
+        console.log("Kết quả:", results);
+        // Xử lý kết quả sau khi cả hai Promise đều hoàn thành
+    })
+    .catch((error) => {
+        console.error("Lỗi:", error);
+        // Xử lý lỗi nếu bất kỳ Promise nào bị thất bại
+    });
+
+const data = "https://jsonplaceholder.typicode.com/todos/1"
+
+const response = fetch(data) 
+
+const dataBuy = response.json();
+console.log(dataBuy)
