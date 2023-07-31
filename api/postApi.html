@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <h1> POST API  </h1>
+    <h1> update API  </h1>
 
     <form id="formSubmit">
         <label for="name"> Name : </label>
@@ -17,36 +17,8 @@
         <label for="name"> image : </label>
         <input type="text" placeholder="enter your name" name="image" id="image"> <br/> <br/> <br/>
 
-        <button type="submit"> add product </button>
+        <button id="update" type="submit"> update product </button>
     </form>
-
-    <script >
-
-
-const form = document.getElementById("formSubmit")
-form.addEventListener("submit", (event) => {
-    event.preventDefault()
-
-    const name = event.target.name.value
-    const price = event.target.price.value
-    const image = event.target.image.value
-
-    const postData = {
-        name,
-        price,
-        image,
-    }
-
-    fetch("http://localhost:8888/product", {
-        method: "POST",
-        headers: {
-        "Content-Type": "application/json",
-        },
-        body: JSON.stringify(postData),
-    })
-        .then(res => res.json())
-        .then(data => console.log(data))
-})
-    </script>
+    <script src="connect api/update.js"></script>
 </body>
 </html>
