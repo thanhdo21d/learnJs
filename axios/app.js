@@ -13,10 +13,9 @@ function wait(time = 0) {
 
 const runTime = async () => {
     const time =  "Running time"
-     wait(5000)
+    await wait(5000)
     const time2 = "endding time"
-
-   const logTime =  await Promise.all([time, time2])
+    const logTime =  await Promise.all([time, time2])
     console.log(logTime)
 }
 runTime() 

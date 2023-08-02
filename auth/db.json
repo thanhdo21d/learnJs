@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "email": "admin22210@gmail.com",
+      "password": "$2a$10$mLjEeaenEM2I4JND2K279.VohOsT8U9n6Y5Bbi5UUQBipmhh/TC/G",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$kbiBk6GTSlXCqkW56HMLfe5Y4.HDkqQFBpKJTirUZhmNxYwDjyapK",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$kzOR1u6p6L9Wg5f4Th96j.0KxAw92JaUH6M/TTc32FGpup.DLR6t6",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "email": "admin2@gmail.com",
+      "password": "$2a$10$7gijGE73O6d4YKuktqoVde0eiAEtssydjJh.LBP.9CTPMh/pi.3Q2",
+      "role": "admin",
+      "id": 5
+    },
+    {
+      "email": "admin4@gmail.com",
+      "password": "$2a$10$kMepapPlBKyBSAUrPPUIqeBCC1bBOgXAhJQi0Hco6KXEFEfPlq522",
+      "role": "admin",
+      "id": 6
+    },
+    {
+      "email": "example@example.com",
+      "password": "$2a$10$KZAp7XSkgAp2olbfjCFLeuK0L9BCNoCKfo1KzLeGzjUkr0p5fhYD.",
+      "role": "admin",
+      "id": 7
+    },
+    {
+      "email": "adminxxxy@gmail.com",
+      "password": "$2a$10$iLzXjCTsL09Glrv4rmyowOWfM9pxT1yfNi/FxF1sFdCLJbNqfld2S",
+      "role": "admin",
+      "id": 8
+    },
+    {
+      "email": "adminxxax@gmail.com",
+      "password": "$2a$10$Ed03OQKTWc9OJayERrxvJ.u4xTDVBqQhuYdcDLgzHUaB0DjpqRwWW",
+      "role": "admin",
+      "id": 9
+    },
+    {
+      "email": "admin22@gmail.com",
+      "password": "$2a$10$lSrNBWeY3tDk3RViiC9EtO2CJcLBx1uvUS5ZpgjNmLKyYzMqJbqri",
+      "role": "admin",
+      "id": 10
+    },
+    {
+      "email": "admin2222@gmail.com",
+      "password": "$2a$10$0ElRgwyiAAvUSXWl2emVEeNg/DunGOMEDNBeHFjEXZUz2rdeNlV4W",
+      "role": "admin",
+      "id": 11
+    },
+    {
+      "email": "admin111@gmail.com",
+      "password": "$2a$10$525LTDn2PqBFoPkX90AQU.CFsVRkz6W8DNuk/kvAjm6UNbB41cQya",
+      "role": "admin",
+      "id": 12
+    },
+    {
+      "email": "example2202@example.com",
+      "password": "$2a$10$BWlefaU9dxjOo7mIwMhJqO9Im1sjKyWDWVtQjxiuDDuuaehFVNJMW",
+      "role": "admin",
+      "id": 13
+    },
+    {
+      "email": "adminxxaa@gmail.com",
+      "password": "$2a$10$6/z.9WU3CPk2CTLBNnM6L.ccWOLHd2yZF9BJ7qz4mQWnF/E.QFk1e",
+      "role": "admin",
+      "id": 14
+    },
+    {
+      "email": "adminw@gmail.com",
+      "password": "$2a$10$FO0zgrE7PPqMtDZ10uJCgOMZyg1d6gUfxlrZyKdqZi0WqGj1NB2H2",
+      "role": "admin",
+      "id": 15
+    },
+    {
+      "email": "thanhdo9xi@gmail.com",
+      "password": "$2a$10$hx5QR4NUSHy2cdj.iWL5s.7HY265OhHdUvkQlnUoK4BFtrJ0uAgdq",
+      "role": "admin",
+      "id": 16
+    }
+  ]
+}
