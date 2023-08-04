@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>get api </title>
+    <link rel="stylesheet" href="index.css">
+
 </head>
+
 <body>
-     <h1> GET API  </h1>
+    <style>
+        .menu {
+
+            position: fixed;
+            top: 0;
+
+        }
+
+        #productList {
+            height: 3000px;
+        }
+
+        #ul {
+            width: 100%;
+        }
+
+        #demo {
+            display: flex;
+            justify-content: space-around;
+            gap: 10%;
+        }
+    </style>
+    <h1> GET API </h1>
+
+
+    <li id="demo" class="menu">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </li>
+
     <ul id="productList">
 
     </ul>
 
     <script src="./connect api/getApi.js"></script>
     <!-- <script src="./connect api/demo.js"></script> -->
-
+    <script type="module">
+        import framerMotion from 'https://cdn.jsdelivr.net/npm/framer-motion@10.15.0/+esm'
+    </script>
 </body>
+
 </html>

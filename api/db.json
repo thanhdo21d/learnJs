@@ -4,24 +4,25 @@
       "name": "san pham A",
       "price": 111111,
       "image": "https://cdn.nguyenkimmall.com/images/companies/_1/tin-tuc/review/co-gi-tren-tivi-top-15-anime-hay-xung-tam-huyen-thoai-h1.jpg",
-      "id": 6
+      "image2": "https://product.hstatic.net/1000003969/product/kem_jnath001_1_3b4396d87cbd4870819a30d6bb4e64b3_grande.jpg",
+      "id": 6,
+      "type": "ao-dam"
     },
     {
       "name": "product M",
       "price": "222222",
       "image": "https://demoda.vn/wp-content/uploads/2022/02/background-anime-dep-an-tuong-nhat-1.jpg",
-      "id": 7
-    },
-    {
-      "name": "admin",
-      "price": "44444",
-      "id": 8
+      "image2": "https: //product.hstatic.net/1000003969/product/xanh_jnjum001_1_2acc3130c6b941c1920f0b98c7347ed1_grande.jpg",
+      "id": 7,
+      "type": "giay"
     },
     {
       "name": "admin1234",
       "price": "222222",
       "image": "https://demoda.vn/wp-content/uploads/2022/02/background-anime-dep-an-tuong-nhat-1.jpg",
-      "id": 9
+      "image2": "https://product.hstatic.net/1000003969/product/nau_jnasm003_2_48e44f4225b048d9ac800ba30019cbb1_grande.jpg",
+      "id": 9,
+      "type": "ao-thun"
     }
   ],
   "users": [

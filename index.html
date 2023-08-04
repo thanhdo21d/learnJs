@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="hinh"  src="https://product.hstatic.net/1000003969/product/nau_jnasm003_2_48e44f4225b048d9ac800ba30019cbb1_grande.jpg"/>
+</body>
+        <script>
+            const image = document.getElementById("hinh")
+
+            image.setAttribute("src-befor","https://product.hstatic.net/1000003969/product/nau_jnasm003_2_48e44f4225b048d9ac800ba30019cbb1_grande.jpg")
+
+            image.setAttribute("src-after","https://product.hstatic.net/1000003969/product/cam_jnath003_1_3c949b64b1264c9f9c11993efb0853c5_grande.jpg")
+
+            image.addEventListener("mouseover",function(){
+                image.src = image.getAttribute("src-befor")
+            })
+              image.addEventListener("mouseout",function(){
+                image.src = image.getAttribute("src-after")
+            })
+        </script>
+</html>
